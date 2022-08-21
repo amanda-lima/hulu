@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from '../components/Header.js';
+import Nav from '../components/Nav'
 
 function Home() {
 
@@ -12,8 +13,8 @@ function Home() {
 
       {/* Header */}
       <Header />
-      {/* Nav */}
 
+      <Nav />
       {/* Results */}
 
     </div>
