@@ -1,7 +1,7 @@
 import requests from '../utils/requests';
 import { useRouter } from 'next/router'
 
-function Nav() {
+export default function Nav() {
     const router = useRouter();
     
     return <nav className="relative">
@@ -15,5 +15,3 @@ function Nav() {
     </nav>
 
 }
-
-export default Nav;
