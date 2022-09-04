@@ -9,7 +9,7 @@ export default function Home({ results }) {
     <div>
       <Head>
         <title>Hulu 2.0</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Header />
       <Nav />
